@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="89dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginBottom="416dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="효창동"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <SearchView
+        android:layout_width="378dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="640dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="89dp"
+            android:layout_height="46dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="#원효로1동" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="89dp"
+            android:layout_height="46dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="#청파동" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName6"
+            android:layout_width="89dp"
+            android:layout_height="46dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="#공덕동" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="36dp"
+            android:layout_height="28dp"
+            app:srcCompat="@android:drawable/ic_menu_info_details" />
+    </SearchView>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="196dp"
+        android:layout_height="166dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="196dp"
+        android:layout_height="166dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="89dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginBottom="248dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="#효창동"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="196dp"
+        android:layout_height="166dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="464dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="196dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="464dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="89dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="248dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="#청파동"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="196dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="196dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="89dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="416dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="#청파동"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="89dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="584dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="#효창동"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="89dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginBottom="584dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="#효창동"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="80dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+</androidx.constraintlayout.widget.ConstraintLayout>
